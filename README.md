@@ -1,12 +1,12 @@
 # LZRS
 
-lzrs est une bibliothèque Rust proposant des implémentations des algorithmes de compression et décompression LZ.
+LZRS est une bibliothèque Rust qui propose des implémentations d'algorithmes de compression et de décompression utilisant la technique LZ. Ces algorithmes, tels que LZ77, sont conçus pour réduire la taille des données en éliminant les redondances, ce qui peut être utile dans divers contextes, y compris la gestion de fichiers et la transmission de données sur des réseaux.
 
 ## Fonctionnalités
-[x] Compression de données en utilisant l'algorithme LZ77.      
-[x] Décompression des données compressées via LZ77.     
-[ ] Compression d'un fichier en utilisant l'algorithme LZ77.        
-[ ] Décompression d'un fichier en utilisant l'algorithme LZ77. 
+- [x] Compression de données en utilisant l'algorithme LZ77.      
+- [x] Décompression des données compressées via LZ77.     
+- [ ] Compression d'un fichier en utilisant l'algorithme LZ77.        
+- [ ] Décompression d'un fichier en utilisant l'algorithme LZ77. 
 
 ## Installation
 Pour utiliser lzrs dans votre projet, ajoutez la dépendance suivante à votre fichier Cargo.toml : (pas encore publié)
@@ -39,7 +39,7 @@ Pour plus d'exemples d'utilisation, consultez la documentation, les tests et [le
 
 
 ## Contributions
-Les contributions sont les bienvenues ! Si vous souhaitez améliorer ou ajouter des fonctionnalités à Huffmanrs, veuillez ouvrir une pull request sur GitHub.
+Les contributions sont les bienvenues ! Si vous souhaitez améliorer ou ajouter des fonctionnalités à LZRS, veuillez ouvrir une pull request sur GitHub.
 
 ## License
 Ce projet est sous [``licence MIT``](LICENSE). Veuillez consulter le fichier [``LICENSE``](LICENSE) pour plus d'informations.
